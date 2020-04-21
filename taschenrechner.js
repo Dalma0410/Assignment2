@@ -1,1 +1,1 @@
-taschenrechner.js
+taschenrechner.ts
