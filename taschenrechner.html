@@ -8,9 +8,18 @@
 </head>
 
 <body>
-    <td  bgcolor="#E0E0E0">
-        <table border="0" cellpadding="0" cellspacing="2">
+    <form id = "calc" name="Rechner" action="" onSubmit="Ergebnis(); return false;">
+    <table border="5" cellpadding="10" cellspacing="0">
+    <tr>
+        <td bgcolor="#C0C0C0""> 
+        <input type="text" id="Display" readonly="readonly"></td>
+    </tr><tr>
+        <td bgcolor="E0E0E0"></td>
+    </tr>
 
+    <table border="0" cellpadding="0" cellspacing="2">
+
+        <center>
         <tr>
         <td><input id="7" type="button"  class="button" value="   7   " onClick="eingabe(7)"></td>
         <td><input id="8" type="button"  class="button" value="   8   " onClick="eingabe(8)"></td>
@@ -37,4 +46,10 @@
          <td><input id="0" type="button"  class="button" value="   0   " onClick="eingabe(0)"></td>
          <td><input id="/" type="button"  class="button" value="   /   " onClick="eingabe('/')"></td>
          </tr>
+        </table>
+        </center>
+
+
+
+
 </body>
