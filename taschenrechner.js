@@ -6,7 +6,7 @@ var zahl2;
 
 function eingabe(x) {
     var eingabeFeld = document.getElementById("Display");
-    var lastChar = eingabeFeld.nodeValue.slice(-1);
+    var lastChar = eingabeFeld.value.slice(-1);
 
     if (!Number.isInteger(x) && operator) {
         alert ("Not possible");
@@ -18,7 +18,21 @@ function eingabe(x) {
         operator = x;
     }
 
-    document.getElementById("Display").nodeValue += x;
+    document.getElementById("Display").value += x;
+}
+
+function calculate() {
+    var eingabeFeld = document.getElementById ("Display");
+    var eingabe = eingabeFeld.value;
+
+    var operatorIndex = eingabe.indexOf(operator);
+
+    zahl1 = eingabe.substring(0, operatorIndex);
+    zahl2 = einhabe.substring(operatorIndex + 1);
+    console.log("ZAHL1: " + zahl1);
+    console.log("ZAHL2: " + zahl2);
+    
+    var ergebnis;
 }
 
 
