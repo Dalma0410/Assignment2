@@ -57,6 +57,8 @@ function calculate() {
 
         break;
     }
+    eingabeFeld.value = ergebnis;
+    operator = undefined;
 }
 
 
