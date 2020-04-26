@@ -33,6 +33,16 @@ function calculate() {
     console.log("ZAHL2: " + zahl2);
     
     var ergebnis;
+
+    switch(operator)
+    {
+        case '+':
+            ergebnis = parseFloat(zahl1) + parseFloat(zahl2)
+            console.log("PLUS: " + ergebnis);
+
+        break;
+        case '-':
+    }
 }
 
 
