@@ -48,6 +48,8 @@ function calculate() {
         break;
         case '*':
             ergebnis = parseFloat(zahl1) * parseFloat(zahl2)
+            console.log("MAL");
+            
 
 
     }
