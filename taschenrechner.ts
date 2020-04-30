@@ -1,4 +1,3 @@
-taschenrechner.ts
 
 var zahl1;
 var operator;
@@ -28,7 +27,7 @@ function calculate() {
     var operatorIndex = eingabe.indexOf(operator);
 
     zahl1 = eingabe.substring(0, operatorIndex);
-    zahl2 = einhabe.substring(operatorIndex + 1);
+    zahl2 = eingabe.substring(operatorIndex + 1);
     console.log("ZAHL1: " + zahl1);
     console.log("ZAHL2: " + zahl2);
     
