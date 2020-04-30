@@ -1,4 +1,4 @@
-taschenrechner.ts
+taschenrechner.js
 
 var zahl1;
 var operator;
