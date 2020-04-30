@@ -1,4 +1,4 @@
-taschenrechner.ts
+taschenrechner1.ts
 
 var zahl1;
 var operator;
