@@ -54,7 +54,7 @@ function calculieren () {
 				console.log("GETEILT");
 			break;
 			
-	}
+    }
 	eingabeFeld.value = ergebnis;
 	operator = undefined;
  }
